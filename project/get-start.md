@@ -59,7 +59,7 @@ $ spm install moment util --save
 var moment = require('moment');
 var util = require('util');
 
-var newYear = moment([2015, 2, 19]);
+var newYear = moment([2016, 2, 8]);
 
 calculate();
 setInterval(calculate, 1000);
@@ -71,7 +71,7 @@ function calculate() {
 
   document.getElementById('count-down-text').innerHTML =
     util.format(
-      '距 2015 年春节还有 %s 月 %s 天 %s 时 %s 分 %s 秒',
+      '距 2016 年春节还有 %s 月 %s 天 %s 时 %s 分 %s 秒',
       diff.months(),
       diff.days(),
       diff.hours(),

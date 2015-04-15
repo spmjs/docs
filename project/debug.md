@@ -30,7 +30,7 @@ CommonJS 和 CMD 写法上最大的区别就是 `define(function(require, export
 
 ### livereload
 
-通过 `spm-server --livereload` 开启。
+通过 `spm server --livereload` 开启。
 
 ![](https://t.alipayobjects.com/images/T1rPReXjpvXXXXXXXX.png)
 
@@ -41,7 +41,7 @@ CommonJS 和 CMD 写法上最大的区别就是 `define(function(require, export
 
 ### weinre
 
-通过 `spm-server --weinre` 开启。
+通过 `spm server --weinre` 开启。
 
 ![](https://t.alipayobjects.com/images/T1ij0eXcRmXXXXXXXX.png)
 
@@ -61,16 +61,16 @@ CommonJS 和 CMD 写法上最大的区别就是 `define(function(require, export
 线上调试主要是通过 anyproxy 实现。
 
 ```bash
-## spm-server 不直接依赖 anyproxy ，所以第一次使用前需要手动安装
+## spm server 不直接依赖 anyproxy ，所以第一次使用前需要手动安装
 $ npm install anyproxy -g
 
-## 启动 spm-server 和 (any)proxy
-$ spm-server --proxy
+## 启动 spm server 和 (any)proxy
+$ spm server --proxy
 ```
 
 然后应该能看到下图的提示：(包含 GUI 和 HTTP 代理的端口)
 
-![](https://t.alipayobjects.com/images/T1Xj0eXc4nXXXXXXXX.png)
+![](https://t.alipayobjects.com/images/T1nPNfXdlcXXXXXXXX.png)
 
 > 注意：第一次使用时应该会提示你安装根证书。
 

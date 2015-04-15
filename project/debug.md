@@ -1,7 +1,7 @@
 
 # 项目调试
 
-spm3 一个较大的改变是源码书写规范从 CMD 变为 CommonJS ，带来的好处是和社区打通，更接近 nodejs 的开发体验。坏处是 CommonJS 的源码不能像 CMD 一样在浏览器里直接加载，从而影响线下的调试体验。
+SPM3 一个较大的改变是源码书写规范从 CMD 变为 CommonJS ，带来的好处是和社区打通，更接近 nodejs 的开发体验。坏处是 CommonJS 的源码不能像 CMD 一样在浏览器里直接加载，从而影响线下的调试体验。
 
 CommonJS 和 CMD 写法上最大的区别就是 `define(function(require, exports, module) {})` 的包裹，只要在调试阶段无缝的加入这个包裹，就可以比较方便的加载调试了。在 spm 3.6 之前的都是通过这个思路去解决的。
 

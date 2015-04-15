@@ -53,4 +53,5 @@ new Dialog($('#el'));
 另外：
 
 - 项目调试使用 `spm server` 而不是 `spm-server`，详见：[调试](../project/debug.md)
+- spm 仅内置支持 standalone 的打包方式，seajs 用户请使用 [spm-sea](https://github.com/spmjs/spm-sea)
 

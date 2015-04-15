@@ -44,6 +44,10 @@ $ nvmw use 0.12.0
 $ nvmw switch 0.12.0
 ```
 
+### node-gyp 编译环境配置 (可选)
+
+https://github.com/TooTallNate/node-gyp#installation
+
 ## 安装 SPM
 
 ```bash

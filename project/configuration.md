@@ -55,6 +55,18 @@
       // -- 扩展
       "loader": {
         ".js": "+jsdc-babel"
+      },
+
+      // -- 调试
+      "define": {
+        "DEBUG": false
+      }
+    },
+
+    "server": {
+      "devtool": "#eval",
+      "define": {
+        "DEBUG": false
       }
     },
 
@@ -122,6 +134,8 @@ var $ = window['jQuery'];
 
 - `"base64": true`，全部转换
 - `"base64": {"limit":10000}`，只在文件大小小于 10kb 时转换
+
+[Demo](https://github.com/spmjs/examples/tree/spm-webpack/base64)
 
 ### babel
 
@@ -205,6 +219,35 @@ output: {
 - `"loader": {".js": "-jsx2"}`，不对 js 文件进行 jsx 处理
 
 [Demo](https://github.com/spmjs/examples/tree/spm-webpack/custom-loader)
+
+### define
+
+定义环境变量，和 "server" 下的 "define" 配合使用，可区分开发和生产环境。
+
+比如：
+
+```
+"build": {
+  "define": {"DEBUG":false}
+},
+"server": {
+  "define": {"DEBUG":true}
+}
+```
+
+然后代码里：
+
+```
+if (DEBUG) {
+  console.log('debug mode');
+} else {
+  console.log('production mode');
+}
+```
+
+这样就可以在调试环境下输出 `debug mode`，在生产环境下输出 `production mode` 。
+
+[Demo](https://github.com/spmjs/examples/tree/spm-webpack/define)
 
 ## server 配置 
 

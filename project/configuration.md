@@ -141,6 +141,12 @@ var $ = window['jQuery'];
 
 指定 ES6 转换器 babel 的配置项，默认关闭。
 
+[Demo](https://github.com/spmjs/examples/tree/spm-webpack/es6)
+
+注：如果要支持 ie8，一些特性需要额外载入 es5-shim + es5-sham 可以。
+
+- http://babeljs.io/docs/usage/caveats/#internet-explorer
+
 ### uglify
 
 配置 uglify 压缩器的选项。

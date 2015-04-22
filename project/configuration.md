@@ -5,7 +5,7 @@
 
 所有参数：
 
-```
+```js
 {
   "name": "",
   "version": "",
@@ -101,7 +101,7 @@ var $ = window['jQuery'];
 
 默认值：
 
-```
+```js
 {
   console: false,
   process: true,
@@ -155,7 +155,7 @@ var $ = window['jQuery'];
 
 默认值：
 
-```
+```js
 sourceMap: false,
 output: {
   ascii_only: true,
@@ -213,7 +213,7 @@ output: {
 
 比如要对 js 文件做额外处理，处理的文件是 ./loader.js，那么配置：
 
-```
+```js
 "loader": {
   ".js": "+./loader"
 }
@@ -234,7 +234,7 @@ output: {
 
 比如：
 
-```
+```js
 "build": {
   "define": {"DEBUG":false}
 },
@@ -245,7 +245,7 @@ output: {
 
 然后代码里：
 
-```
+```js
 if (DEBUG) {
   console.log('debug mode');
 } else {

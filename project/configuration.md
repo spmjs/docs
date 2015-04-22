@@ -93,6 +93,8 @@ var $ = require('jquery');
 var $ = window['jQuery'];
 ```
 
+[Demo](https://github.com/spmjs/examples/tree/spm-webpack/build-global)
+
 ### node
 
 配置是否引入 node 相关的补丁。

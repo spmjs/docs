@@ -83,13 +83,13 @@
 
 比如：
 
-```
+```js
 var $ = require('jquery');
 ```
 
 配置 `"global":{"jquery":"jQuery"}` 后被构建成：
 
-```
+```js
 var $ = window['jQuery'];
 ```
 

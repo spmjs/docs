@@ -27,7 +27,7 @@
 
 比如：
 
-```
+```js
 seajs.use('./index', 'jquery', function(Dialog, $) {
   new Dialog($('#el'));
 });
@@ -35,7 +35,7 @@ seajs.use('./index', 'jquery', function(Dialog, $) {
 
 要修改成：
 
-```
+```js
 var Dialog = require('dialog');
 var $ = require('jquery');
 

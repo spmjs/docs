@@ -17,6 +17,7 @@ $ spm -v
     - [项目入门](./project/get-started.md)：如何快速开发春节倒计时的需求
     - [调试](./project/debug.md)：包含本地调试、livereload、weinre、线上调试
     - [配置项](./project/configuration.md)：详解构建配置
+    - [指定依赖](./project/build-global.md)：开发指定依赖 jQuery 项目
 - 其他
     - [升级到 3.6](./misc/upgrade-to-3.6.md)：升级注意事项
     - [发布 3.6](./misc/release-3.6.md)

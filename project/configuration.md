@@ -93,7 +93,7 @@ var $ = require('jquery');
 var $ = window['jQuery'];
 ```
 
-[Demo](https://github.com/spmjs/examples/tree/spm-webpack/build-global)
+[Demo](https://github.com/spmjs/examples/tree/master/build-global)
 
 ### node
 

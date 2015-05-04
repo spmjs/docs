@@ -114,7 +114,7 @@ $ spm build index.js index.html
 └── package.json
 ```
 
-[dist/index.js](https://github.com/spmjs/examples/blob/master/build-global/dist/index.js) 文件内容为:
+dist/index.js 文件内容为:
 
 ```js
 !function(r){function o(e){if(t[e])return t[e].exports;var n=t[e]={exports:{},id:e,loaded:!1};return r[e].call(n.exports,n,n.exports,o),n.loaded=!0,n.exports}var t={};return o.m=r,o.c=t,o.p="",o(0)}([function(r,o,t){var e=t(1);e(function(){e("#box").hide(333).show(333)})},function(r,o,t){r.exports=jQuery}]);

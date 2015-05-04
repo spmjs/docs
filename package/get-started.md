@@ -146,4 +146,13 @@ $ spm doc publish
 
 比如：http://spmjs.io/docs/now/ 。
 
+文件名请使用中划线或下划线作为连接符
 
+```
+// bad
+examples/beforePageCount.md
+// good
+examples/before-page-count.md
+// good
+examples/before_page_count.md
+```

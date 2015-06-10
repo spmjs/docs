@@ -12,7 +12,7 @@
 **(1) 基于 webpack 重新实现了 build**
 
 - 性能更快：比如钉钉的项目从之前的 `200s` 缩短到 `52s`，经过配置后最后到 `38s`
-- 功能更强大：比如公用包和文件的提取，动态依赖、循环引用、node 模块补丁等，详见 [配置项](https://github.com/spmjs/docs/blob/master/project/configuration.md) 和 [案例](https://github.com/spmjs/examples/tree/spm-webpack)
+- 功能更强大：比如公用包和文件的提取，动态依赖、循环引用、node 模块补丁等，详见 [配置项](https://github.com/spmjs/docs/blob/master/zh-cn/project/configuration.md) 和 [案例](https://github.com/spmjs/examples/tree/spm-webpack)
 - 扩展性更好：比如这样配置 `"loader": {".js":"+./foo"}`，即可对所有 js 文件用本地的 `foo.js` 进行额外处理，[Demo](https://github.com/spmjs/examples/tree/spm-webpack/custom-loader)
 
 **(2) doc, server 和 test 基于 build 实现**

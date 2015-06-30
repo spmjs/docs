@@ -32,7 +32,7 @@ CommonJS 和 CMD 写法上最大的区别就是 `define(function(require, export
 
 通过 `spm server --livereload` 开启。
 
-![](https://t.alipayobjects.com/images/T1rPReXjpvXXXXXXXX.png)
+![](https://t.alipayobjects.com/images/T1VYVgXbBvXXXXXXXX.png)
 
 这时 spm-server 会做两件事：
 
@@ -43,7 +43,7 @@ CommonJS 和 CMD 写法上最大的区别就是 `define(function(require, export
 
 通过 `spm server --weinre` 开启。
 
-![](https://t.alipayobjects.com/images/T1ij0eXcRmXXXXXXXX.png)
+![](https://t.alipayobjects.com/images/T1_YJgXlRuXXXXXXXX.png)
 
 和 livereload 一样，spm-server 会做两件事：
 

@@ -34,7 +34,7 @@ CommonJS 和 CMD 写法上最大的区别就是 `define(function(require, export
 
 ![](https://t.alipayobjects.com/images/T1VYVgXbBvXXXXXXXX.png)
 
-这时 spm-server 会做两件事：
+这时 `spm server` 会做两件事：
 
 1. 开启 livereload 服务器
 2. 访问 html 页面时会插入 livereload 脚本，用于和服务器通讯实时刷新页面
@@ -45,7 +45,7 @@ CommonJS 和 CMD 写法上最大的区别就是 `define(function(require, export
 
 ![](https://t.alipayobjects.com/images/T1_YJgXlRuXXXXXXXX.png)
 
-和 livereload 一样，spm-server 会做两件事：
+和 livereload 一样，`spm server` 会做两件事：
 
 1. 开启 weinre 服务器
 2. 访问 html 页面时会插入 weinre 脚本，用于和服务器通讯

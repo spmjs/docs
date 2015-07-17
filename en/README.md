@@ -2,7 +2,7 @@
 
 [SPM-commands](./spm-commands.md)
 
-[Package.json](./package.json)
+[Package.json](./package.json.md)
 
 [CSS-and-template](./css-and-template.md)
 

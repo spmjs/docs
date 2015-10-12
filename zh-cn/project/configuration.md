@@ -142,12 +142,24 @@ var $ = window['jQuery'];
 ### babel
 
 指定 ES6 转换器 babel 的配置项，默认关闭。
+[babel 参数](https://babeljs.io/docs/usage/options/)
 
 [Demo](https://github.com/spmjs/examples/tree/spm-webpack/es6)
 
 注：如果要支持 ie8，一些特性需要额外载入 es5-shim + es5-sham 可以。
 
 - http://babeljs.io/docs/usage/caveats/#internet-explorer
+
+babel ES7特性支持参数
+
+```js
+babel: {
+  "optional": [
+    "es7.classProperties"
+  ]
+}
+```
+[optional 参数](https://babeljs.io/docs/advanced/transformers/#optional)
 
 ### uglify
 

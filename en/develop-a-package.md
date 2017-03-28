@@ -85,13 +85,13 @@ Open [http://127.0.0.1:8000/examples/](http://127.0.0.1:8000/examples/) in brows
 
 Except using three &#96; in Markdown file, you can also use four &#96; to wrap your code.
 
-It is a special rule that make your code highlighted and would be inserted to document page as a script block so they can be excuted at the same time. That is very useful for debugging your demo and writing a beautiful documentation both.
+It is a special rule that highlights your code and inserts it to a document page as a script block so they can be excuted at the same time. This is very useful for debugging your demo and writing beautiful documentation.
 
-If you want to insert a iframe in your demo, make your code to `iframe` type.
+If you want to insert an iframe in your demo, make your code to `iframe` type.
 
 <pre>
 ````iframe:600
-I am in a iframe of 600px high
+I am in an iframe of 600px high
 ````
 </pre>
 
@@ -125,13 +125,13 @@ You can also open [http://127.0.0.1:8000/tests/runner.html](http://127.0.0.1:800
 
 ## Publish
 
-Now you have a great package having wonderful function and complete tests case, you can publish the package to [spmjs.io](http://spmjs.io/).
+Now you have a great package with wonderful functions and complete test cases, which you can publish to [spmjs.io](http://spmjs.io/).
 
 ```bash
 $ spm publish
 ```
 
-You should run `spm login` first to get permission, otherwise it would propmt the authorization problem. 
+First you should run `spm login` to get permission, otherwise it will propmt the authorization problem. 
 
 ```bash
 $ spm login
@@ -139,7 +139,7 @@ $ spm login
 
 `username` is the name of your github account, and `authkey` can be found at http://spmjs.io/account after signing in.
 
-> The package `now` is published by me, of cause. You should change other name and retry.
+> The package `now` is published by me, of course. You should change other name and retry.
 
 ## Documentation
 
@@ -149,7 +149,7 @@ spmjs.io can host your package's documentation. What all you need to do is editi
 $ spm doc publish
 ```
 
-The documentation url is `http://docs.spmjs.io/{{name}}/` for latest version and `http://docs.spmjs.io/{{name}}/{{version}}/` for each versions.
+The documentation url is `http://docs.spmjs.io/{{name}}/` for the latest version and `http://docs.spmjs.io/{{name}}/{{version}}/` for each versions.
 
 For example, http://docs.spmjs.io/now/.
 
@@ -159,9 +159,9 @@ For example, http://docs.spmjs.io/now/.
 $ spm build
 ```
 
-This command will build the files indicated by `spm.main` and `spm.output` field to `dist` folder. The `spm.build` would be executed as arguments.
+This command will build the files indicated by `spm.main` and `spm.output` fields to `dist` folder. The `spm.build` would be executed as arguments.
 
-The default build result is a package which could be deployed at cdn. Then you can use it .For example.
+The default build result is a package which can be deployed at cdn and then used. For example,
 
 **In your html**
 ```html

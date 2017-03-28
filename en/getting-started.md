@@ -18,7 +18,7 @@ All packages in `spmjs.io` should be written in CommonJS, having a complete life
 - Documentation Site Generator and Host
 - Build
 
-[spmjs.io](http://spmjs.io/) is packages management service for spm. You can browse for packages you need, or publish your package here.
+[spmjs.io](http://spmjs.io/) is a package management service for spm. You can browse for packages you need, or publish your package here.
 
 ## Installation
 
